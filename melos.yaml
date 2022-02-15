@@ -1,0 +1,4 @@
+name: facily_components
+
+packages:
+  - packages/**
