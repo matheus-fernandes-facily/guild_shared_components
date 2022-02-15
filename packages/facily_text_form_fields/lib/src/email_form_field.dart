@@ -14,6 +14,7 @@ class FacilyEmailFormField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
+      keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         label: Text(label),
         prefixIcon: const Icon(Icons.email),
